@@ -357,7 +357,7 @@ main { padding: 26px 12px 10px; max-width: 1000px; margin: 0 auto; }
 }
 .pin { position: absolute; top: -12px; left: 50%; width: 26px; height: 26px; margin-left: -13px; border-radius: 50%; background: var(--red); border: var(--line) solid var(--ink); box-shadow: inset -4px -4px 0 rgba(0, 0, 0, .2); }
 .eot-h { font-family: var(--display); font-size: 34px; color: var(--red); letter-spacing: .04em; margin: 4px 0 6px !important; line-height: 1; }
-.eot-t { font-family: var(--display); font-size: 15px; letter-spacing: .03em; line-height: 1.35; margin: 0 0 8px !important; }
+.eot-t { font-family: var(--display); font-size: 14px; letter-spacing: .02em; line-height: 1.35; margin: 0 0 8px !important; }
 .eot-cap { font-size: 13px; color: var(--ink-soft); margin: 0 !important; }
 .alerts { list-style: none; counter-reset: al; padding: 0; margin: 0; }
 .alerts > li { counter-increment: al; position: relative; padding: 12px 12px 4px 52px; border: var(--line) solid var(--ink); border-radius: 12px; background: #fff; margin-bottom: 12px; }
