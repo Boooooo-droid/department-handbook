@@ -12,7 +12,6 @@ live: https://boooooo-droid.github.io/department-handbook/
 - fomies points, tasks, the common task errors, raids and referrals
 - questions people keep asking
 - glossary
-- things to try in the office (spoilers folded)
 - timeline of official posts and noticeboard memos, shown in your time zone
 - scam alerts
 

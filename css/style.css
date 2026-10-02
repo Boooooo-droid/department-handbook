@@ -317,17 +317,14 @@ main { padding: 26px 12px 10px; max-width: 1000px; margin: 0 auto; }
 .tips li { margin-bottom: 6px; }
 .raid-status { font-family: var(--mono); font-weight: 700; background: var(--stock); border: 2px dashed var(--ink); border-radius: 8px; padding: 6px 10px; }
 
-/* ---------------- faq + spoilers ---------------- */
-.qa details, .spoilers details { border: var(--line) solid var(--ink); border-radius: 12px; background: #fff; margin-bottom: 10px; }
-.qa summary, .spoilers summary { cursor: pointer; list-style: none; padding: 11px 44px 11px 12px; font-weight: 900; position: relative; }
-.qa summary::-webkit-details-marker, .spoilers summary::-webkit-details-marker { display: none; }
-.qa summary::after, .spoilers summary::after { content: "+"; position: absolute; right: 12px; top: 6px; font-family: var(--display); font-size: 24px; }
-.qa details[open] summary::after, .spoilers details[open] summary::after { content: "−"; }
-.qa details p, .spoilers details p { padding: 0 12px; }
-.qa details[open], .spoilers details[open] { background: var(--paper); }
-.spoilers summary { font-family: var(--display); font-weight: 400; font-size: 21px; }
-.spoilers details:not([open]) summary { background: repeating-linear-gradient(-45deg, #fff, #fff 10px, #f1f4f8 10px, #f1f4f8 20px); border-radius: 10px; }
-.sp-no { font-family: var(--mono); font-weight: 700; font-size: 13px; background: var(--mint); border: 2px solid var(--ink); border-radius: 6px; padding: 1px 6px; margin-right: 8px; vertical-align: 3px; }
+/* ---------------- faq ---------------- */
+.qa details { border: var(--line) solid var(--ink); border-radius: 12px; background: #fff; margin-bottom: 10px; }
+.qa summary { cursor: pointer; list-style: none; padding: 11px 44px 11px 12px; font-weight: 900; position: relative; }
+.qa summary::-webkit-details-marker { display: none; }
+.qa summary::after { content: "+"; position: absolute; right: 12px; top: 6px; font-family: var(--display); font-size: 24px; }
+.qa details[open] summary::after { content: "−"; }
+.qa details p { padding: 0 12px; }
+.qa details[open] { background: var(--paper); }
 
 /* ---------------- glossary ---------------- */
 .gloss dt { font-family: var(--display); font-size: 22px; margin-top: 14px; }

@@ -1,5 +1,5 @@
 /* offline copy of the handbook. caches only this site's own files. */
-var CACHE = "handbook-2026-10-03b";
+var CACHE = "handbook-2026-10-03c";
 var FILES = [
   "./", "index.html", "css/style.css", "js/checker.js", "js/app.js", "favicon.svg",
   "fonts/chewy-400.woff2", "fonts/nunito-var.woff2", "fonts/courier-prime-400.woff2", "fonts/courier-prime-700.woff2"
